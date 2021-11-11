@@ -1,0 +1,10 @@
+{
+  "name": "citadel-colors",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Nicolas Marien",
+  "license": "MIT",
+  "dependencies": {
+    "@notionhq/client": "^0.4.6"
+  }
+}
