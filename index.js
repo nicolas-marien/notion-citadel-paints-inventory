@@ -13,7 +13,7 @@ function toTitleCase (string) {
   const files = fs.readdirSync(__dirname + "/paints");
 
   for (const json of files) {
-    const paints = require(__dirname + '/paints/' + "shade.json");
+    const paints = require(__dirname + '/paints/' + json);
     const tag = json.split('.')[0];
     for (const [name, url] of Object.entries(paints)) {
 
